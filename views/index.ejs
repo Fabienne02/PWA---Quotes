@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title><%- title %></title>
+
+      <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+      <link href="styles/styles.css" rel="stylesheet" />
+    </head>
+  </head>
+  <header>
+    <section>
+      <p id="title">Give me a random quote</p>
+      <button class="bottom"><a href="#random"> I'm feeling lucky</a></button>
+      <div id="loading"></div>
+      <p id="errorquoteoftheday"></p>
+      <figure id="day"></figure>
+    </section>
+  </header>
+  <body>
+    <section id="root">
+      <% data.forEach(function(quote) { %>
+      <figure class="figure">
+        <blockquote><%- quote.text %></blockquote>
+        <cite><%- quote.name %></cite>
+        <a href="<%-quote.name %>">#</a>
+      </figure>
+      <% }); %>
+    </section>
+    <section id="singlequote"></section>
+  </body>
+</html>

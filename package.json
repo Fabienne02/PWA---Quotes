@@ -1,0 +1,21 @@
+{
+  "name": "wpa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "i": "^0.3.7",
+    "node": "^17.7.1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "npm": "^8.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "F van den Steen",
+  "license": "ISC"
+}
