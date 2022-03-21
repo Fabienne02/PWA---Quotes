@@ -7,7 +7,7 @@
 Quotes is een web-app die je door inspireerde quotes laat scrollen.
 Pin jouw favorite quotes of laat je verassen door de random quote generator!
 
-<img src=src="https://github.com/Fabienne02/Quotes/blob/main/assets/quotes.png" height="700" alt="banner">
+<img src="https://github.com/Fabienne02/Quotes/blob/main/assets/quotes.png" height="700" alt="banner">
 
 ## Table of contents
   - [Table of contents](#table-of-contents)
@@ -28,7 +28,7 @@ Pin jouw favorite quotes of laat je verassen door de random quote generator!
 Quotes maakt gebruik van een api: https://quote.api.fdnd.nl/v1/quote
 
 ## Gecodeerd met
-Quotes is gecodeerd in HTML, CSS en Javascript, Hierbij maak ik gebruik van een hash router => [routie.js](http://projects.jga.me/routie/) 
+Quotes is gecodeerd in HTML, CSS, Javascript en Node.JS
 
 ## Features
 <ul>
@@ -45,7 +45,7 @@ Quotes is gecodeerd in HTML, CSS en Javascript, Hierbij maak ik gebruik van een 
 ## Installing
 1. Clone deze repository naar jouw lokale folder
 ```
-git clone https://github.com/Fabienne02/Quotes.git
+git clone https://github.com/Fabienne02/PWA---Quotes.git
 ```
 2. Open de folder in jouw code applicatie [Zoals VSCODE](https://code.visualstudio.com/Download)
 3. Start een live port en bekijk het project in jouw browser
@@ -54,10 +54,9 @@ git clone https://github.com/Fabienne02/Quotes.git
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/control flow 3.png">
 
 ## Documentation
-Lees hier mijn documentatie per week [wiki](https://github.com/Fabienne02/Quotes/wiki)
+Er is nog geen documentatie
 
 ## Sources
-- [Hash router](http://projects.jga.me/routie/)
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
 
 
