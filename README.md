@@ -28,7 +28,8 @@ Pin jouw favorite quotes of laat je verassen door de random quote generator!
 Quotes maakt gebruik van een api: https://quote.api.fdnd.nl/v1/quote
 
 ## Gecodeerd met
-Quotes is gecodeerd in HTML, CSS, Javascript en Node.JS
+Quotes is gecodeerd in EJS (node), Javascript
+Vol Server side gerenderd.
 
 ## Features
 <ul>
