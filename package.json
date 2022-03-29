@@ -9,7 +9,8 @@
     "node": "^17.7.1",
     "node-fetch": "^2.6.7",
     "nodemon": "^2.0.15",
-    "npm": "^8.5.5"
+    "npm": "^8.5.5",
+    "serve": "^13.0.2"
   },
   "devDependencies": {},
   "scripts": {
