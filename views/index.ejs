@@ -17,14 +17,12 @@
   <header>
     <section>
       <p id="title">Give me a random quote</p>
-      <button class="bottom"><a href="/random"> I'm feeling lucky</a></button>
+      <button class="bottom">I'm feeling lucky</button>
       <div id="loading"></div>
       <p id="errorquoteoftheday"></p>
       <figure id="day">
-        <% if (randomQuote) { %>
-        <blockquote><%- randomQuote.text %></blockquote>
-        <cite><%- randomQuote.name %></cite>
-        <% } %>
+        <blockquote></blockquote>
+        <cite></cite>
       </figure>
     </section>
   </header>
@@ -39,5 +37,29 @@
       <% }); %>
     </section>
     <section id="singlequote"></section>
+
+    <script>
+      const randomQuotes = [
+      <% data.forEach(function(quote, index) { %>
+        {
+          text: "<%= quote.text %>",
+          name: "<%= quote.name %>"
+        },
+      <% }) %>
+      ];
+
+      const text = document.querySelector("figure#day blockquote")
+      const name = document.querySelector("figure#day cite")
+      const button = document.querySelector("button")
+      button.addEventListener("click", nieuweQuote)
+
+      nieuweQuote()
+
+      function nieuweQuote() {
+        const rv = Math.round(Math.random() * randomQuotes.length, 0)
+        text.innerHTML = randomQuotes[rv].text
+        name.innerHTML = randomQuotes[rv].name
+      }
+    </script>
   </body>
 </html>

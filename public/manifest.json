@@ -3,9 +3,9 @@
   "short_name": "PWAConf",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#2A3443",
-  "description": "A demo app for a fictional conference",
-  "theme_color": "#2A3443",
+  "background_color": "#faefec",
+  "description": "Quotes - Generator",
+  "theme_color": "#df4239",
   "icons": [
     {
       "src": "./Icons/icon-512x512.png",

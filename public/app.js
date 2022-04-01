@@ -9,3 +9,4 @@ if ('serviceWorker' in navigator) {
   } else {
     console.log('Service workers are not supported.');
   }
+  
