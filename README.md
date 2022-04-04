@@ -54,11 +54,15 @@ git clone https://github.com/Fabienne02/PWA---Quotes.git
 ```
 npm install || npm i
 ```
+```
 npm install || npm express
+```
 ```
 npm install || npm node
 ```
-npm install || npm node-fetchv2
+```
+npm install || npm node-fetch
+```
 
 5. Start de applicatie met de volgende command
 ```
