@@ -17,7 +17,7 @@ Pin jouw favorite quotes of laat je verassen door de random quote generator!
   - [Features](#features)
   - [Wishlist](#wishlist)
   - [Installing](#installing)
-  - [Control flow](#control-flow)
+  - [Activity diagram](#activity-diagram)
   - [Documentation](#documentation)
   - [Sources](#sources)
   - [Author](#author)
@@ -66,7 +66,7 @@ npm install || npm start
 ```
 6. Open de de localhost:3001 in je browser
 
-## Control flow
+## Activity diagram
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/control flow 3.png">
 
 ## Documentation
