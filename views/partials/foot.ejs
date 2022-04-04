@@ -1,0 +1,25 @@
+ <script>
+        const randomQuotes = [
+        <% data.forEach(function(quote, index) { %>
+          {
+            text: "<%= quote.text %>",
+            name: "<%= quote.name %>"
+          },
+        <% }) %>
+        ];
+  
+        const text = document.querySelector("figure#day blockquote")
+        const name = document.querySelector("figure#day cite")
+        const button = document.querySelector("button")
+        button.addEventListener("click", nieuweQuote)
+  
+        nieuweQuote()
+  
+        function nieuweQuote() {
+          const rv = Math.round(Math.random() * randomQuotes.length, 0)
+          text.innerHTML = randomQuotes[rv].text
+          name.innerHTML = randomQuotes[rv].name
+        }
+      </script>
+    </body>
+    </html>

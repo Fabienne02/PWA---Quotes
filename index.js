@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
-const fetch = require("node-fetch")
+const fetch = require("node-fetch");
+const { cache } = require("ejs");
+const { fileURLToPath } = require("url");
 
 
 const port = 3001;
@@ -61,47 +63,6 @@ app.get('/quote/:id', function (req, res) {
     })
     .catch((err) => console.log(err));
   })
-
-//   Als Offline, /random op button , client side offline page
-//   app.get('/random', function (req, res) {
-    
-//     fetch(
-//         "https://quote.api.fdnd.nl/v1/quote"
-//     )
-//     .then((response) => {
-//         return response.json()
-//     })
-//       .then((data) => {
-
-//         data.data.map( (quote, index) => {
-//             switch(index % 3) {
-//                 case 0:
-//                     quote.color = 'medium'
-//                     break
-//                 case 1:
-//                     quote.color = 'dark'
-//                     break
-//                 case 2:
-//                     quote.color = 'light'
-//                     break
-//             }
-//         })
-//         const quotes = data.data
-//         const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-//         return { quotes, randomQuote}  
-//         })
-//         .then((data) => {
-//             console.log(data);
-//         res.render('index', {
-//             title: 'WPA - Quotes',
-//             data: data.quotes,
-//             randomQuote: data.randomQuote
-//           })
-//         }
-//         ) 
-//         .catch((err) => console.log(err));
-//     })
-  
 
     app.get('/offline', function (req, res) {
         res.render("offline", {

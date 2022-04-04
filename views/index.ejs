@@ -1,65 +1,16 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<%- include('./partials/head') %> <%- include('./partials/header') %>
 
-    <title><%- title %></title>
+<main>
+  <section id="root">
+    <% data.forEach(function(quote, index) { %>
+    <figure class="figure">
+      <blockquote><%- quote.text %></blockquote>
+      <cite><%- quote.name %></cite>
+      <a href="/quote/<%- quote.quoteId %>?color=<%- quote.color %>">#</a>
+    </figure>
+    <% }); %>
+  </section>
+  <section id="singlequote"></section>
+</main>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="/Icons/icon-512x512.png" />
-    <link href="/styles.css" rel="stylesheet" />
-    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
-    <script type="text/javascript" src="/app.js"></script>
-  </head>
-  <header>
-    <section>
-      <p id="title">Give me a random quote</p>
-      <button class="bottom">I'm feeling lucky</button>
-      <div id="loading"></div>
-      <p id="errorquoteoftheday"></p>
-      <figure id="day">
-        <blockquote></blockquote>
-        <cite></cite>
-      </figure>
-    </section>
-  </header>
-  <body>
-    <section id="root">
-      <% data.forEach(function(quote, index) { %>
-      <figure class="figure">
-        <blockquote><%- quote.text %></blockquote>
-        <cite><%- quote.name %></cite>
-        <a href="/quote/<%- quote.quoteId %>?color=<%- quote.color %>">#</a>
-      </figure>
-      <% }); %>
-    </section>
-    <section id="singlequote"></section>
-
-    <script>
-      const randomQuotes = [
-      <% data.forEach(function(quote, index) { %>
-        {
-          text: "<%= quote.text %>",
-          name: "<%= quote.name %>"
-        },
-      <% }) %>
-      ];
-
-      const text = document.querySelector("figure#day blockquote")
-      const name = document.querySelector("figure#day cite")
-      const button = document.querySelector("button")
-      button.addEventListener("click", nieuweQuote)
-
-      nieuweQuote()
-
-      function nieuweQuote() {
-        const rv = Math.round(Math.random() * randomQuotes.length, 0)
-        text.innerHTML = randomQuotes[rv].text
-        name.innerHTML = randomQuotes[rv].name
-      }
-    </script>
-  </body>
-</html>
+<%- include('./partials/foot') %>
