@@ -74,7 +74,9 @@ npm install || npm start
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/control flow 3.png">
 
 ## Documentation
-Lees meer over de presentatie van deze web-app in de [wiki](https://github.com/Fabienne02/PWA---Quotes/wiki)
+Lees meer over de presentatie van deze web-app  in de [wiki](https://github.com/Fabienne02/PWA---Quotes/wiki)
+- [Critical render path](https://github.com/Fabienne02/PWA---Quotes/wiki/Critical-render-path)
+- [Lighthouse](https://github.com/Fabienne02/PWA---Quotes/wiki/Lighthouse)
 
 ## Sources
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
