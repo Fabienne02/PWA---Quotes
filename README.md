@@ -70,7 +70,7 @@ npm install || npm start
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/control flow 3.png">
 
 ## Documentation
-Er is nog geen documentatie
+Lees meer over de presentatie van deze web-app in de [wiki](https://github.com/Fabienne02/PWA---Quotes/wiki)
 
 ## Sources
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
