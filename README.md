@@ -1,5 +1,6 @@
 # Quotes 🪅
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/Focus quote.jpg" width=530 >
+iets
 
 [ 🪅 Live link naar product](https://Fabienne02.github.io/Quotes/index.html)
 
