@@ -1,3 +1,4 @@
+// Bron: https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register
 // SERVERWORKER 
 if ('serviceWorker' in navigator) {
     // declaring scope manually

@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
         
         res.render("index", {
             data: data.data,
-            title: "WPA - Quotes",
+            title: "PWA - Quotes",
             randomQuote: null
         })
     })
@@ -56,7 +56,7 @@ app.get('/quote/:id', function (req, res) {
 
        
         res.render('quote', {
-        title: 'WPA - Quotes',
+        title: 'PWA - Quotes',
         quote: data.data[0],
         color: req.query.color
       })

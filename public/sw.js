@@ -1,3 +1,4 @@
+// Bron: https://github.com/cmda-minor-web/progressive-web-apps-2122/blob/main/examples/node-advanced-static-prerendering-example/src/service-worker.js
 // Static files in the cach
 const CORE_CACHE_VERSION = 'v3'
 const CORE_ASSETS = [
