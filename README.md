@@ -72,7 +72,7 @@ npm install || npm start
 6. Open de de localhost:3001 in je browser
 
 ## Activity diagram
-<img src="https://github.com/Fabienne02/Quotes/blob/main/assets/control flow 3.png">
+<img src="https://github.com/Fabienne02/PWA---Quotes/blob/main/assets/activity-diagram.png">
 
 ## Documentation
 Lees meer over de presentatie van deze web-app  in de [wiki](https://github.com/Fabienne02/PWA---Quotes/wiki)
