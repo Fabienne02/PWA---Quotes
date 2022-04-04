@@ -21,6 +21,7 @@ Pin jouw favorite quotes of laat je verassen door de random quote generator!
   - [Documentation](#documentation)
   - [Sources](#sources)
   - [Author](#author)
+  - [License](#license)
 
 ## About
 **Quotes is een webapp waar je geinspireerd kan worden door design quotes!**
@@ -49,7 +50,21 @@ Vol Server side gerenderd.
 git clone https://github.com/Fabienne02/PWA---Quotes.git
 ```
 2. Open de folder in jouw code applicatie [Zoals VSCODE](https://code.visualstudio.com/Download)
-3. Start een live port en bekijk het project in jouw browser
+4. Install all packages
+```
+npm install || npm i
+```
+npm install || npm express
+```
+npm install || npm node
+```
+npm install || npm node-fetchv2
+
+5. Start de applicatie met de volgende command
+```
+npm install || npm start
+```
+6. Open de de localhost:3001 in je browser
 
 ## Control flow
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/control flow 3.png">
@@ -63,6 +78,9 @@ Er is nog geen documentatie
 
 ## Author
 De maker van deze app is: [*Fabienne van den Steen*](https://github.com/Fabienne02)
+
+## License 
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]()
 
 <!-- Here are some hints for your project! -->
 
