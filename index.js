@@ -5,7 +5,7 @@ const { cache } = require("ejs");
 const { fileURLToPath } = require("url");
 
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.set("view engine", "ejs");
 app.set('view cache', true);
