@@ -74,6 +74,8 @@ Lees meer over de presentatie van deze web-app in de [wiki](https://github.com/F
 
 ## Sources
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
+- [Fetch in Node](https://dev.to/pratham82/using-fetch-api-in-node-js-with-weather-api-3a7d)
+- [PWA])https://vaadin.com/learn/tutorials/learn-pwa/turn-website-into-a-pwa)
 
 
 ## Author
