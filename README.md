@@ -68,7 +68,7 @@ npm install || npm node-fetch
 ```
 npm install || npm start
 ```
-6. Open de de localhost:3001 in je browser
+6. Open de de localhost:3002 in je browser
 
 ## Activity diagram
 <img src="https://github.com/Fabienne02/PWA---Quotes/blob/main/assets/activity-diagram.png">
