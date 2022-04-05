@@ -77,6 +77,11 @@ npm install || npm start
 Lees meer over de presentatie van deze web-app  in de [wiki](https://github.com/Fabienne02/PWA---Quotes/wiki)
 - [Critical render path](https://github.com/Fabienne02/PWA---Quotes/wiki/Critical-render-path)
 - [Lighthouse](https://github.com/Fabienne02/PWA---Quotes/wiki/Lighthouse)
+- Font-display: swap
+- Compression 
+- js defer tag
+
+Hierbij heb ik ook geprobeerd een control header in te stellen, dit beïnvloede mijn snelheid negatief met 0,2-0,4 seconden dus heb ik deze weg gelaten.
 
 ## Sources
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
