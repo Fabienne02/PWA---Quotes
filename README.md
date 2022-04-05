@@ -1,6 +1,5 @@
 # Quotes 🪅
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/Focus quote.jpg" width=530 >
-iets
 
 [ 🪅 Live link naar product](https://Fabienne02.github.io/Quotes/index.html)
 
@@ -19,7 +18,7 @@ Pin jouw favorite quotes of laat je verassen door de random quote generator!
   - [Wishlist](#wishlist)
   - [Installing](#installing)
   - [Activity diagram](#activity-diagram)
-  - [Documentation](#documentation)
+  - [Presentation](#presentation)
   - [Sources](#sources)
   - [Author](#author)
   - [License](#license)
@@ -74,7 +73,7 @@ npm install || npm start
 ## Activity diagram
 <img src="https://github.com/Fabienne02/PWA---Quotes/blob/main/assets/activity-diagram.png">
 
-## Documentation
+## Presentation
 Lees meer over de presentatie van deze web-app  in de [wiki](https://github.com/Fabienne02/PWA---Quotes/wiki)
 - [Critical render path](https://github.com/Fabienne02/PWA---Quotes/wiki/Critical-render-path)
 - [Lighthouse](https://github.com/Fabienne02/PWA---Quotes/wiki/Lighthouse)
