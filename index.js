@@ -1,17 +1,19 @@
 const express = require("express");
 const app = express();
 const fetch = require("node-fetch");
+const compression = require("compression")
 const { cache } = require("ejs");
 const { fileURLToPath } = require("url");
+const res = require("express/lib/response");
 
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 app.set("view engine", "ejs");
 app.set('view cache', true);
 
 app.use(express.static("public"));
-
+app.use(compression());
 
 app.get("/", (req, res) => {
     fetch(
@@ -49,11 +51,6 @@ app.get('/quote/:id', function (req, res) {
     )
     .then((response) => response.json())
       .then((data) => {
-
-        
-        
-        console.log(data)
-
        
         res.render('quote', {
         title: 'PWA - Quotes',

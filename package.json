@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.3",
     "i": "^0.3.7",
     "node": "^17.7.1",
@@ -15,8 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "F van den Steen",
   "license": "ISC"

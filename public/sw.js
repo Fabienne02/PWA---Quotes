@@ -8,6 +8,7 @@ const CORE_ASSETS = [
   '/Icons/icon-512x512.png'
 ]
 
+
 self.addEventListener('install', event => {
   console.log('Installing service worker')
 
