@@ -1,8 +1,6 @@
 # Quotes 🪅
 <img src="https://github.com/Fabienne02/Quotes/blob/main/assets/Focus quote.jpg" width=530 >
 
-[ 🪅 Live link naar product](https://Fabienne02.github.io/Quotes/index.html)
-
 # Introduction
 Quotes is een web-app die je door inspireerde quotes laat scrollen.
 Pin jouw favorite quotes of laat je verassen door de random quote generator!
