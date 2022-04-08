@@ -99,7 +99,8 @@ self.addEventListener('install', event => {
 ```
 <br><br>
 De volgende code luisteren we naar activate van de serviceworker, dus tot active status. dan fetchen we de files uit de cache. <br>
-Anders... (else if) als je niet kan fetchen pak dan /offline uit de statische cache en toon die!<br>
+Hierbij openen we ook de dynamische HTML cache, want die moeten we ook checken of er wat in zit<br>
+Anders... als je niet kan fetchen pak dan /offline uit de statische cache en toon die!<br>
 ```
 self.addEventListener('activate', event => {
   console.log('Activating service worker')
