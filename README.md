@@ -150,9 +150,9 @@ function fetchAndCache(request, cacheName) {
 }
 ```
 <br><br>
-Voor de rest maak ik parameters aan doormiddel van functions voor html request, core request en url's.
-HTML request kijkt naar de html files of in dit geval EJS vertaald naar HTML
-Core request kijkt naar de statische files 
+Voor de rest maak ik parameters aan doormiddel van functions voor html request, core request en url's.<br>
+HTML request kijkt naar de html files of in dit geval EJS vertaald naar HTML<br>
+Core request kijkt naar de statische files <br>
 URL is voor het define van een document zoals quotes.nl/index.css naar index.css <br>
 
 ## Presentation
